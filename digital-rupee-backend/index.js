@@ -7,7 +7,7 @@ app.use(cors())
 
 // Define a route
 app.get('/', (req, res) => {
-    res.send('Hello, Express.js!');
+    res.send('Hello, Express.js!!');
 });
 
 app.get('/backendApi/helloWorld', (req, res) => {
