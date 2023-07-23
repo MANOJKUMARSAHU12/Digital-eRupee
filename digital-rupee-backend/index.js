@@ -25,7 +25,7 @@ app.post('/backendApi/register', (req, res) => {
     console.log({ name, email, password, balance });
   
     // Send a response back to the client
-    res.status(200).json({ message: 'Registration successful!' });
+    res.status(200).json({ message: 'Registration successful! ' });
   });
 
 // Start the server
