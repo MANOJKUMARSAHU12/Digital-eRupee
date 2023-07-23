@@ -16,6 +16,9 @@ export default function header() {
                             <li className="nav-item">
                                 <Link to="/HelloWorld" className="nav-link active">Hello World</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link to="/RegistrationForm" className="nav-link active">Registration Form</Link>
+                            </li>
                         </ul>
                         <ul className="navbar-nav">
                             <li className="nav-item">
