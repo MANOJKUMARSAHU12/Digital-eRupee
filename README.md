@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Digital Rupee 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+Digital Rupee is a project aimed at introducing a digital currency in India, backed and regulated by the Reserve Bank of India (RBI). The project leverages the power of blockchain technology to provide a secure, efficient, and decentralized payment system. The digital currency, known as e₹-R, will be used for various transactions, ranging from retail purchases to cross-border transfers.
 
-In the project directory, you can run:
+## Entities and their Roles
 
-### `npm start`
+### RBI (Reserve Bank of India)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+As the central banking institution of India, the RBI plays a crucial role in the Digital Rupee ecosystem. Its responsibilities include:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Issuance and Management: The RBI will oversee the issuance of the Digital Rupee and manage its circulation. It will be responsible for controlling the monetary policy and ensuring the stability of the currency.
+* Back-End Infrastructure: The RBI will develop and maintain the back-end infrastructure that supports the Digital Rupee system. This includes implementing blockchain technology to ensure secure and transparent transactions.
+* Use Case Testing: RBI will conduct testing of specific use cases, including peer-to-peer (P2P) and peer-to-merchant (P2M) transactions. This will help identify and address any potential challenges before full-scale implementation.
+* Cross-Border Transactions: The RBI will facilitate cross-border transactions using the Digital Rupee, enabling seamless international payments.
 
-### `npm test`
+### Participating Banks
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Several leading banks in India, including State Bank of India, Bank of Baroda, Union Bank of India, HDFC Bank, ICICI Bank, Kotak Mahindra Bank, Yes Bank, IDFC First Bank, and HSBC, will be part of the Digital Rupee project. Their roles include:
 
-### `npm run build`
+* Trial Project Participation: Each participating bank will conduct a trial project involving a subset of their customers, ranging from 10,000 to 50,000 individuals. This trial will allow them to test and refine the usage of e₹-R in various scenarios.
+* Wholesale and Retail Transactions: Participating banks will facilitate both wholesale and retail transactions using the Digital Rupee. This includes enabling businesses and individuals to use e₹-R for everyday transactions.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Users
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The users in the Digital Rupee system are the general public who will utilize e₹-R for their transactions. Their roles and interactions include:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* End Users: Users will be the end consumers who adopt e₹-R as their digital currency for various transactions. They can use the currency for retail purchases, bill payments, and other financial activities.
+* Engagement with Banks: Users will engage with the bank's systems to manage and utilize e₹-R for their transactions. They will interact with participating banks' digital platforms and mobile applications to access their Digital Rupee wallets.
 
-### `npm run eject`
+## Functionalities of Digital Rupee
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The Digital Rupee system aims to provide the following key functionalities:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Secure Transactions: Leveraging blockchain technology, the system ensures secure and tamper-proof transactions, protecting users' financial information.
+* Efficient Payments: Digital Rupee facilitates fast and efficient payment processing, reducing transaction times and improving overall financial efficiency.
+* Cross-Border Transfers: The system enables seamless cross-border transfers, promoting international trade and remittances.
+* Financial Inclusion: Digital Rupee promotes financial inclusion by providing access to digital currency and banking services to underserved populations.
+* Regulated and Centralized: As a regulated digital currency, the Digital Rupee offers the stability and trust associated with the central banking institution.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Conclusion
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The Digital Rupee project represents a significant step towards the adoption of digital currencies in India. With the RBI's backing and the involvement of major banks, the project aims to transform the country's financial landscape by offering secure, efficient, and accessible digital payment solutions to the masses.
