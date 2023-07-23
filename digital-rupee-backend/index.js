@@ -1,7 +1,26 @@
 const express = require('express');
-const cors=require('cors');
+const cors = require('cors');
+const mysql = require('mysql2'); // Import the mysql2 library
 const app = express();
 const port = 4000; // You can change this to any port number you prefer
+
+// MySQL database configuration
+const db = mysql.createConnection({
+    host: 'localhost',
+    user: 'root',
+    password: 'root',
+    database: 'digital rupee', // Replace with your database name
+    port: 3306,
+});
+
+db.connect((err) => {
+    if (err) {
+        console.error('Error connecting to MySQL database:', err);
+    } else {
+        console.log('Connected to MySQL database!');
+    }
+});
+
 
 app.use(cors());
 app.use(express.json());
@@ -19,14 +38,21 @@ app.get('/backendApi/helloWorld', (req, res) => {
 app.post('/backendApi/register', (req, res) => {
     // Extract the registration data from the request body
     const { name, email, password, balance } = req.body;
-  
-    // You can now handle the registration data, e.g., save it to a database
-    console.log('Received registration data:');
-    console.log({ name, email, password, balance });
-  
-    // Send a response back to the client
-    res.status(200).json({ message: 'Registration successful! ' });
-  });
+
+    // Save the registration data to the database
+    const sql = 'INSERT INTO users (name, email, password, balance) VALUES (?, ?, ?, ?)';
+    const values = [name, email, password, balance];
+
+    db.query(sql, values, (err, result) => {
+        if (err) {
+            console.error('Error saving user registration data:', err);
+            res.status(500).json({ message: 'Error registering user.' });
+        } else {
+            console.log('User registration data saved:', result);
+            res.status(200).json({ message: 'Registration successful!' });
+        }
+    });
+});
 
 // Start the server
 app.listen(port, () => {
